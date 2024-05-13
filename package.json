@@ -1,0 +1,23 @@
+{
+  "name": "zh-utils",
+  "version": "1.0.0",
+  "description": "Typescript工具函数库",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jinmuyan888/zh-utils.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jinmuyan888/zh-utils/issues"
+  },
+  "homepage": "https://github.com/jinmuyan888/zh-utils#readme"
+}
