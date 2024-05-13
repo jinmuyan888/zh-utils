@@ -16,3 +16,7 @@ export const build = async () => {
   await codeFormatting();
   await execSync('cross-env NODE_ENV=build tsup', { stdio: 'inherit' });
 };
+
+export const release = async () => {
+  await execSync('npx esno ./build/release.ts', { stdio: 'inherit' });
+};

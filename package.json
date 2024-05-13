@@ -7,9 +7,13 @@
   "directories": {
     "doc": "docs"
   },
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "dev": "gulp dev",
-    "build": "gulp build"
+    "build": "gulp build",
+    "release": "gulp release"
   },
   "repository": {
     "type": "git",
